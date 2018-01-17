@@ -1,0 +1,44 @@
+* {
+    background-color: pink;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    color: rgb(121, 6, 88);
+}
+
+img {
+    width: 65%;
+    border-radius: 5%;
+}
+
+.carousel-content {
+    display: none;
+}
+
+.carousel-content.active {
+    display: block;
+}
+
+.control {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.previous,
+.next {
+    color: white;
+    margin: 10px 30px;
+}
+
+.control:hover,
+.previous:hover,
+.next:hover {
+    background: #4db6ac;
+    border: 1px solid #4db6ac;
+}
