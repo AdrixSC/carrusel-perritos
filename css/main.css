@@ -10,8 +10,9 @@ h1 {
 }
 
 img {
-    width: 65%;
+    width: 100%;
     border-radius: 5%;
+    height: auto;
 }
 
 .carousel-content {
@@ -36,9 +37,7 @@ img {
     margin: 10px 30px;
 }
 
-.control:hover,
-.previous:hover,
-.next:hover {
+.controls button.active {
     background: #4db6ac;
     border: 1px solid #4db6ac;
 }
